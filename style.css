@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap');
+
+@font-face {
+    font-family: 'eth';
+    font-style: normal;
+    font-weight: normal;
+    src: url('eth.ttf');
+    }
+
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+body{
+    background-color: #1e1e1e;
+    height: 400vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.logo{
+    width: 50px;
+    position: absolute;
+    left: 40px;
+    top: 5px;
+}
+
+.web-nav{
+    display: block;
+    height: 60px;
+    line-height: 30px;
+    background-color: darkred;
+    width: 205-px;
+    text-align: center;
+}
+
+.web-nav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.web-nav li{
+    float: right;
+
+}
+
+.web-nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+    font-family: eth;
+
+}
+
+.mainhero{
+    position: relative;
+    left: 300px;
+    top: 5px;
+}
+
+.crunchgym{
+    color: aliceblue;
+    position: absolute;
+    float: right;
+    font-family: eth;
+    top: 150px;
+    right: 260px;
+    font-size: 90px;
+}
+
+.maindialog{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 990px;
+    top: 300px;
+}
+
+
+.p1{
+    font-family: 'Poppins', sans-serif ;
+    position: relative;
+    float: right;
+    font-size: 20px;
+    right: 195px;
+    bottom: 400px;
+    color: whitesmoke;
+}
+
+.Container {
+    background-color: white;
+    position: relative;
+    height: 950px;
+}
+
+.About-Us{
+    position: relative;
+    left: 131px;
+    font-family:'Poppins', sans-serif;
+    top: 50px;
+    font-size: 100px;
+}
+
+.para1{
+    color: black;
+    position: relative;
+    top: 100px;
+    font-family:'Poppins', sans-serif;
+    left: 125px;
+    font-size: 20px;
+}
+
+.para2{
+    color: black;
+    position: relative;
+    top: 100px;
+    float: left;
+    left: 125px;
+    font-family:'Poppins', sans-serif;
+    font-size: 20px;
+}
+.para3{
+    color: black;
+    position: relative;
+    top: 108px;
+    float: left;
+    left: 125px;
+    font-family:'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.join{
+    color: black;
+    position: absolute;
+    top: 750px;
+    left: 125px;
+    font-family: 'Poppins', sans-serif ;
+    font-size: 30px;
+}
+
+.girldance{
+    position: relative;
+    float: right;
+    left: 0px;
+    bottom: 117px;
+}
+
+.slider-frame{
+    position: relative;
+    width: 800px;
+    height: auto;
+    overflow: hidden;
+    left: 150px;
+    top: 500px;
+}
+
+.images{
+    display: flex;
+    width: 100%;
+}
+
+.images img {
+    height: 600px;
+    width: 800px;
+    transition: all 1s ease;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.images input {
+    display: none;
+}
+
+.dots{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.dots label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid #fff 3px;
+    cursor: pointer;
+    transition: all 1s ease;
+    margin:5px;
+}
+
+.dots label:hover{background: #fff;}
+
+
+#img1:checked ~ .m1{
+    margin-left: 0;
+}
+#img2:checked ~ .m2{
+    margin-left: -100%;
+}
+#img3:checked ~ .m3{
+    margin-left: -200%;
+}
+#img4:checked ~ .m4{
+    margin-left: -300%;
+}
+.about-weights{
+    color: white;
+    font-family:'Poppins', sans-serif;
+    top: 2020px;
+    position: absolute;
+    left: 131px;
+    font-size: 100px;
+}
+
+.paraforgallery{
+    top: 500px;
+}
+
+.parainfo1{
+    position: relative;
+    font-family:'Poppins', sans-serif;
+    left: 985px;
+    color: white;
+    bottom: 150px;
+    font-size: 20px;
+}
+.parainfo2{
+    position: relative;
+    font-family:'Poppins', sans-serif;
+    left: 985px;
+    color: white;
+    bottom: 115px;
+    font-size: 20px;
+}
+.parainfo3{
+    position: relative;
+    font-family:'Poppins', sans-serif;
+    left: 985px;
+    color: white;
+    bottom: 85px;
+    font-size: 20px;
+}
+
+.container2{
+    background-color: white;
+    height: 1050px;
+    position: relative;
+    top: 300px;
+}
+
+.contact-info1{
+    font-family:'Poppins', sans-serif;
+    font-size: 100px;
+    position: relative;
+    left: 131px;
+    top: 100px;
+}
+
+.container2 form {
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+    left: 150px;
+    top: 200px;
+    font-family:'Poppins', sans-serif;
+}
+
+.contactform{
+    margin-bottom: 30px;
+
+}
+
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid black;
+    color: black;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.container2 form button{
+    padding: 10px 0;
+    color: black;
+    outline: none;
+    background: transparent;
+    border: 1px solid black;
+    width: 100%;
+    cursor: pointer;
+}
+.instagramlink{
+    position: relative;
+    font-family:'Poppins', sans-serif;
+    left: 1200px;
+    bottom: 400px;
+    color: black;
+    font-size: 50px
+}
+
+.googlemaps{
+    position: relative;
+    font-family:'Poppins', sans-serif;
+    left: 905px;
+    bottom: 340px;
+    color: black;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

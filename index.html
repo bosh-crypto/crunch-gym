@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crunch Gym</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        let section=document.querySelectorAll("section")
+        let navLink=document.querySelectorAll("nav ul a")
+        window.onscroll=()=>{
+            section.forEach(sec=>{
+                let top=window.scrollY;
+                let offset=sec.offsetTop-150;
+                let height=sec.offsetHeight;
+                let id =sec.getAttribute('id')
+                if(top.offset && top<offset + height){
+                    navLink.forEach(links=>{
+                        links.classList.remove("active")
+                        document.querySelector("nav ul a[herf*="+id+"]").classList.add("active")
+                    })
+                }
+            })
+        }
+    </script>
+</head>
+<body>
+
+    <!-- nav bar start-->
+
+    <img class="logo" src="/Images/edited crunch.PNG" alt="logo">
+
+    <nav class="web-nav">
+        <ul>
+            <li><a href="#Contact-us">Contact-us</a></li>
+            <li><a href="#Weights & Equipments">Weights & Equipments</a></li>
+            <li><a href="#About-us">About-Us</a></li>
+            <li><a href="#home">Home</a></li>
+        </ul>
+    </nav>
+
+    <!-- nav bar end -->
+
+    <!-- Top start-->
+
+    <div class="main-content" id="home">
+            <div class="mainhero">
+                <img src="/Images/hero-banner.png" alt="image">
+            </div>
+            <h1 class="crunchgym">
+                CRUNCH GYM
+            </h1>
+            <h3 class="maindialog">
+                Stop The Voices Inside You 
+            </h3>
+            <p class="p1">
+                Come immerse yourself in a superior fitness experience at our Kondapur gym,<br/>
+                where our dedicated team of experienced and passionate fitness,<br/> 
+                enthusiasts is committed to providing <br/>
+                The highest level of health and wellness support.<br/>
+                Our primary goal is to guide and empower our clients on their individual fitness journeys,<br/>
+                whether they are beginners looking to begin a healthier lifestyle or <br/>
+                advanced athletes looking to improve their performance.<br/>
+            </p>
+
+    </div>
+
+
+    <!-- top end -->
+    <!-- middle start-->
+    <div class="Container" id="About-us">
+        <div>
+            <h1 class="About-Us">
+                About-Us
+            </h1>
+        </div>
+        <div>
+            <p class="para1">
+                We've created an environment at our gym that goes beyond the typical fitness center.<br/>
+                Our cutting-edge facilities are designed to accommodate a wide range of fitness goals and preferences.<br/> 
+                We have a well-equipped workout area with a wide range of cutting-edge equipment to meet your every need.<br/> 
+                We have everything under one roof. <br/> 
+                From free weights to advanced cardio machines and specialized strength-training equipment.<br/> 
+            </p>
+        </div>
+        <div>
+            <p class="para2">
+                What distinguishes us is our personalized approach to fitness. <br/> 
+                We recognize that each person's needs and goals are unique,<br/> 
+                which is why we provide customized workout plans and expert guidance to ensure you get the most out of your fitness journey.<br/> 
+                Our certified trainers are always available to provide guidance, motivation, and support, ensuring you stay on track to meet your objectives.<br/> 
+            </p>
+        </div>
+        <div>
+            <p class="para3">
+                But don't just take our word for it; you have to see it for yourself to believe it. <br/> 
+                We invite you to come to our Kondapur gym and experience the transformational environment that we've created for yourself. <br/> 
+                Feel the energy, dedication, and community spirit that characterizes our gym and allow it to propel you toward your fitness goals.<br/> 
+                We are here to help you every step of the way, whether you want to lose weight, gain muscle, improve your endurance, <br/>
+                or simply live a healthier lifestyle.<br/> 
+            </p>
+        </div>
+        <div>
+            <h2 class="join">
+                Join us now, and we'll reinvent your fitness story
+            </h2>
+        </div>
+        <div class="girldance">
+            <img src="/Images/about-banner.png"  alt="ImJ">
+        </div>
+    </div>
+
+
+
+<div class="slider-frame" id="Weights & Equipments">
+    <div class="images">
+        <input type="radio" name="slide" id="img1" checked>
+        <input type="radio" name="slide" id="img2" checked>
+        <input type="radio" name="slide" id="img3" checked>
+        <input type="radio" name="slide" id="img4" checked>
+
+        <img src="/Images/sly1.jpg" alt="images" class="m1">
+        <img src="/Images/sly2.jpg" alt="images" class="m2">
+        <img src="/Images/sly4.jpg" alt="images" class="m3">
+        <img src="/Images/sly5.jpg" alt="images" class="m4">
+    </div>
+    <div class="dots">
+        <label for="img1"></label>
+        <label for="img2"></label>
+        <label for="img3"></label>
+        <label for="img4"></label>
+    </div>
+</div>
+<div class="weights">
+    <p class="about-weights">
+        Weights & Equipments
+    </p>
+</div>
+<div class="paraforgallery">
+    <p class="parainfo1">
+        In the pursuit of a healthier and more active lifestyle, <br/>
+        the role of gym equipment cannot be overstated. Over the years,<br/>
+        gym equipment has evolved significantly, catering to a diverse range of<br/>
+        fitness enthusiasts, from bodybuilders to those simply looking to<br/>
+        improve their overall health. This article delves into the history and<br/>
+        evolution of gym equipment, shedding light on how these tools<br/>
+        have played a vital role in shaping the fitness industry.<br/>
+    </p>
+</div>
+<div class="paraforgallery">
+    <p class="parainfo2">
+        The concept of gymnasiums, or places for physical exercise,<br/> 
+        dates back to ancient Greece.
+        These early facilities primarily focused on activities such as wrestling,<br/>
+        calisthenics, and other bodyweight exercises. Equipment was minimal, consisting of <br/>
+        simple tools like the halteres (stone or metal weights) and ropes. The Greeks <br/>
+        understood the importance of physical fitness and strength, setting the stage for the<br/>
+        evolution of gym equipment.<br/>
+    </p>
+</div>
+<div class="paraforgallery">
+    <p class="parainfo3">
+        As the 20th century dawned, the demand for more specialized equipment led to the creation <br/>
+        of innovative machines. One of the earliest such inventions was the Universal Gym Machine,<br/>
+        developed by Dr. Gustav Zander in the late 19th century. It featured a series of pulleys and <br/>
+        levers, allowing users to perform various exercises for different muscle groups. This marked a<br/>
+        significant shift toward the development of targeted workout machines.
+    </p>
+</div>
+<div class="container2" id="Contact-us">
+        <div class="contact-info1">
+            <p> 
+            Get In Touch 
+            </p>
+        </div>
+    <form action="https://formspree.io/f/mwkdzbrq"method="POST">
+        <div class="contactform">
+            <input type="text" id="name" name="name" required>
+            <label for="name">Your name</label>
+        </div>
+        <div class="contactform">
+            <input type="text" id="number" name="phone-number" required>
+            <label for="number">Phone number</label>
+        </div>
+        <div class="contactform">
+            <input type="text" id="email" name="email" required>
+            <label for="email">email</label>
+        </div>
+        <div class="contactform">
+            <textarea id="message" rows="8" name="message" required></textarea>
+        <label for="your message">Your message</label>
+        </div>
+        <div class="button1">
+            <button type="submit"> SUBMIT </button>
+        </div>
+    </form>
+    <div class="contact-links">
+        <a class="instagramlink" href="https://www.instagram.com/crunch.kondapur/?next=%2F">Instagram</a>
+        <a class="googlemaps" href="https://maps.app.goo.gl/nzr6eEM1zt7PKHTK7">Google Maps</a>
+    </div>
+</div>
+</body>
+</html>
